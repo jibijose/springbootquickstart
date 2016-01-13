@@ -1,15 +1,16 @@
 package com.example.springboot.service;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
 
 // TODO: Auto-generated Javadoc
 /**
  * The Class SystemNameService.
  */
-@Component
+@Service
 public class SystemNameService {
-	
+
 	@Value("${testvarkey:defaultVALUE}")
 	private String testKey;
 
