@@ -2,6 +2,7 @@ package com.example.springboot.service;
 
 import com.couchbase.client.protocol.views.Query;
 import com.example.springboot.domain.Beer;
+import com.example.springboot.repository.BeerRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.example.springboot.service;
+package com.example.springboot.repository;
 
 import com.couchbase.client.protocol.views.Query;
 import com.example.springboot.domain.Beer;
