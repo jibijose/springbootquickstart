@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.example.springboot.Application;
 import com.example.springboot.MockConfig;
 import com.example.springboot.service.SystemNameService;
 
