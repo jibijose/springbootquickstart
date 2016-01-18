@@ -2,7 +2,7 @@ target
 .project
 .settings
 .classpath
-config
+config/output
 
 .pmd
 .pmdruleset.xml
