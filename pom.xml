@@ -175,7 +175,7 @@
 			<!-- </goals> -->
 			<!-- <phase>post-integration-test</phase> -->
 			<!-- <configuration> -->
-			<!-- <property>myDirectory</property> -->
+			<!-- <property>project.basedir</property> -->
 			<!-- </configuration> -->
 			<!-- </execution> -->
 			<!-- </executions> -->
@@ -185,7 +185,7 @@
 				<artifactId>maven-checkstyle-plugin</artifactId>
 				<version>2.15</version>
 				<configuration>
-					<configLocation>${myDirectory}/checkstyle.xml</configLocation>
+					<configLocation>${project.basedir}/config/static-code-analysis/checkstyle.xml</configLocation>
 					<maxAllowedViolations>500</maxAllowedViolations>
 				</configuration>
 				<executions>
@@ -206,7 +206,7 @@
 					<linkXref>false</linkXref>
 					<failOnViolation>true</failOnViolation>
 					<failurePriority>1</failurePriority>
-					<configLocation>${myDirectory}/config/static-code-analysis/pmd-rulesets.xml</configLocation>
+					<configLocation>${project.basedir}/config/static-code-analysis/pmd-rulesets.xml</configLocation>
 					<includeTestSourceDirectory>false</includeTestSourceDirectory>
 				</configuration>
 				<executions>
