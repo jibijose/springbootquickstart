@@ -12,6 +12,7 @@
 	<logger name="com.example.springboot" level="INFO" />
 	<logger name="org.springframework" level="INFO" />
 	<logger name="org.aspectj" level="INFO" />
+	<logger name="com.example.springboot" level="DEBUG" />
 
 	<root level="INFO">
 		<appender-ref ref="STDOUT" />
