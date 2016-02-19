@@ -6,3 +6,4 @@ config/output
 
 .pmd
 .pmdruleset.xml
+.vagrant
